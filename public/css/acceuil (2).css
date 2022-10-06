@@ -1,0 +1,243 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+header .carousel-inner .item {
+	height: 100vh;
+}
+
+.banner {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+    opacity: 0.9;
+}
+.carousel-caption {
+	padding-bottom: 130px;
+	font-family: poppins;
+}
+.carousel-caption h2 {
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.carousel-caption h2 span {
+	color: #CE1212;
+}
+.carousel-caption a {
+	background: #CE1212;
+	padding: 15px 35px;
+	display: inline-block;
+	margin-top: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 25px;
+}
+.carousel-control.right {
+	background-image: none;
+}
+.carousel-control.left {
+	background-image: none;
+}
+.carousel-indicators .active {
+	background-color: #CE1212;
+	border-color: #CE1212;
+}
+.connect {
+    background-color: #CE1212;
+    color: black; 
+    border: 2px solid #CE1212;
+    padding: 16px 32px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  
+  .connect:hover {
+   
+    color: white;
+  }
+
+/*responsive css*/
+.bcontent{
+	padding-top: 50px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+}
+.card-title{
+	font-family: 'Poppins', sans-serif;
+	font-size: 25px;
+}
+
+  
+  #bt{
+	  top:10xp;
+  }
+  
+  #div1{
+	  border:solid;
+	  border-radius: 5px;
+	  border-color: red;
+	  height: 400px;
+  }
+  
+  hr{
+	  border-top: 5px solid red;
+	  weight: 10px;
+  }
+  
+  #aa {
+	display: block;
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+	border: 1px solid ; 
+	border-radius: shadow;
+	
+  }
+  #more {display: none;}
+  
+ /*  img{
+	width: 100px;
+  } */
+  
+  h1::before {
+	content: "before";
+  }
+  h1::after {
+	content: "after";
+  }
+  
+  .na::after
+  {
+	  display: block;
+	  height: 5px;
+	  width: 270px;
+	  background-color: #ce1212;
+	  content: " ";
+	  margin: 30px auto 0px auto;
+  }
+  
+  
+  
+  #r{
+	margin-top: 10px;
+	weight:10px;
+	height: 185px;
+  }
+  
+  #y{
+	
+	margin-top: 10px;
+	margin-right: 50px;
+	weight:150px;
+	height: 185px;
+  }
+  
+  #e{
+	border: 1px solid ;
+	border-radius:5px; 
+		box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+		-moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+		-webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+		-o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+  }
+  
+  #t{
+	width: 1300px;
+	height: 187px;
+	float: right;
+  }
+  
+  .bcontent {
+			margin-top: 10px;
+		} 
+  
+	  .img-hover-zoom {
+   /* [1.1] Set it as per your need */
+	overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+	transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+	transform: scale(1.5);
+  }   
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		padding-bottom: 150px;
+	}
+	.carousel-caption h2 {
+		font-size: 50px;
+	}
+}
+@media only screen and (max-width: 767px) {
+
+	.carousel-caption {
+		padding-bottom: 80px;
+	}
+	.carousel-caption h2 {
+		font-size: 25px;
+	}
+	.carousel-caption h3 {
+		font-size: 18px;
+	}
+	.carousel-caption a {
+		padding: 10px 25px;
+	}
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,700&display=swap');
+.bodyy
+{   padding-top: 40px;
+    font-family: 'Lato', sans-serif;
+	font-size: 15px;
+
+}
+.footer 
+{
+    background-color: rgb(224, 224, 224);
+}
+.imgsize
+{
+    height: 260px;
+}
+ .img-hover-zoom { 
+    overflow: hidden;
+  }
+.img-hover-zoom--slowmo img {
+    transform-origin: 50% 65%;
+    transition: transform 5s, filter 1s ease-in-out;
+    filter: brightness(100%);
+  }
+.img-hover-zoom--slowmo:hover img {
+    filter: brightness(90%);
+    transform: scale(3);
+  } 
+
+.article-recent
+{
+  font-size: 300;
+  font-weight: 500;
+}
+.article-recent::after
+{
+    display: block;
+    height: 5px;
+    width: 100px;
+    background-color: #ce1212;
+    content: " ";
+    margin: 30px auto 0px auto;
+}
+

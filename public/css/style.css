@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,700&display=swap');
+*
+{
+    font-family: 'Lato', sans-serif;
+}
+.footer 
+{
+    background-color: rgb(224, 224, 224);
+}
+.imgsize
+{
+    height: 260px;
+}
+ .img-hover-zoom { 
+    overflow: hidden;
+  }
+.img-hover-zoom--slowmo img {
+    transform-origin: 50% 65%;
+    transition: transform 5s, filter 1s ease-in-out;
+    filter: brightness(100%);
+  }
+.img-hover-zoom--slowmo:hover img {
+    filter: brightness(90%);
+    transform: scale(3);
+  } 
+
+.article-recent
+{
+  font-size: 300;
+  font-weight: 500;
+}
+.article-recent::after
+{
+    display: block;
+    height: 5px;
+    width: 100px;
+    background-color: #ce1212;
+    content: " ";
+    margin: 30px auto 0px auto;
+}
+/* -------------------------form style---------------------------------- */
+.form-style
+{
+  border-radius: 50px;
+  background-color: rgb(226, 226, 226);
+}
+.form-textarea{
+  border-radius: 5px;
+}
+.btn-red
+{
+  background-color: #ce1212;
+  border-radius: 15px;
+  width: 150px;
+  color: white;
+  font-size: x-large;
+  font-weight: 300;
+  margin-top: 30px;
+}
+/* ----------------------------------------------------------------------- */
